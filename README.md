@@ -14,19 +14,19 @@ I build automated reporting pipelines that turn messy healthcare billing data in
 
 ## Featured work
 
-**Aged Trial Balance (ATB) Dashboard** | R Markdown, R, Parquet
+**Aged Trial Balance (ATB) Dashboard** | R Markdown, R, Parquet<br>
 One automated report covering the full claim lifecycle from discharge to payment. Every unbilled balance shows its reason, and any chart drills down to an Excel export of the accounts behind it, so AR teams no longer need to request lists from analytics.
 
-**Cash Posting Reconciliation** | R Markdown, R
+**Cash Posting Reconciliation** | R Markdown, R<br>
 Replaced a daily manual comparison of bank deposits against patient accounting. It runs every morning, shows about 700 open deposits by facility, owner and reason, and cut aged unposted cash by 78% in three weeks.
 
-**Quarterly Performance Summary Pipeline** | R, DuckDB, Parquet
+**Quarterly Performance Summary Pipeline** | R, DuckDB, Parquet<br>
 Rebuilt a manually maintained spreadsheet as a daily pipeline that archives one row per facility to DuckDB and a Parquet history. It ties out exactly to the legacy version on core metrics, and anyone on the team can run it.
 
-**Team Performance Snapshots** | Python, Parquet
+**Team Performance Snapshots** | Python, Parquet<br>
 A daily job that renders team level performance reports and saves dated snapshots with automatic backups, which made trend tracking and team scorecards possible.
 
-**Payment Integrity Analyses** | SQL, R
+**Payment Integrity Analyses** | SQL, R<br>
 Medicaid due diligence and Medicare Advantage eligibility reviews that surfaced over $1M in write off and recovery opportunities, each proven at the account level.
 
 ## Tech stack
